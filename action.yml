@@ -1,4 +1,4 @@
-name: 'Version File'
+name: lansoweb/automatic-releases-version-file
 description: 'Create or update a version file during release using laminas automatic release'
 branding:
   icon: tag
