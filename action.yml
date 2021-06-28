@@ -1,0 +1,7 @@
+name: 'Version File'
+description: 'Update version File for laminas automatic release'
+runs:
+  using: "composite"
+  steps:
+    - run: ${{ github.action_path }}/bump.sh
+      shell: bash
