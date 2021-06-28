@@ -1,5 +1,8 @@
 name: 'Version File'
-description: 'Update version File for laminas automatic release'
+description: 'Create or update a version file during release using laminas automatic release'
+branding:
+  icon: tag
+  color: blue
 runs:
   using: "composite"
   steps:
